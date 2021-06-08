@@ -85,3 +85,45 @@ body {
 }
 
 /*  layout  */
+
+.main-section {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 1rem;
+}
+
+article {
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+aside {
+    grid-column: 2 / 3;
+    grid-row: 1;
+}
+
+.subseciton {
+    display: flex;
+}
+
+/*  images and figures  */
+
+img {
+    width: 100%;
+}
+
+figure {
+    margin: 0px;
+}
+
+.article-image {
+    width: 33%;
+    float: left;
+    margin-right: 1rem;
+}
+
+.subseciton figure {
+    margin: 0rem 0.25rem;
+    background-color: #A5BDC7;
+
+}
