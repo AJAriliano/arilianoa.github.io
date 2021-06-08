@@ -96,8 +96,9 @@ h1 {
     border-radius: 0.3rem;
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    color: #F2E4C9;
+    color: #fcf9f3;
     background-color: #995399;
+    box-shadow: 5px 5px 4px -1px #888;
 }
 
 
