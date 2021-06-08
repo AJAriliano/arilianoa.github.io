@@ -89,7 +89,9 @@ h1 {
 }
 
 .highlight {
+    display: inline-block;
     font-family: ultra, Georgia, serif;
+    border: 1px solid black;
 }
 
 
