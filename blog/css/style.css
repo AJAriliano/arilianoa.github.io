@@ -48,4 +48,40 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
+/* imported fonts */
 
+@font-face{
+    font-family: "ultra";
+    src: url('../fonts/serif/ultra-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/sans-serif/roboto-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*  typography  */
+
+
+
+/*  general setup and defaults  */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size:16px;
+}
+
+body {
+    margin: 1.5rem auto;
+    width:90%;
+    min-width:56.25rem;
+}
+
+/*  layout  */
